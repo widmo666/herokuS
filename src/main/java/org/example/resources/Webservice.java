@@ -41,7 +41,7 @@ public class Webservice {
 
 		webDriver.close();
 		webDriver.quit();
-		return "Po testach";
+		return currentUrl;
 	}
 
 }
